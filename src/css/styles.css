@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* list-style: none; */
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: rgb(17, 89, 205);
+}
+
+.download-button {
+    background-color: #232424;
+    width: auto;
+    color: white;
+    text-decoration: none;
+    display: none; /* Hide the download button on mobile */
+}
+
+.download-button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+    color: rgb(0, 0, 0);
+}
+
+.download-button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 0;
+}
+
+.navbar-toggler {
+    margin-left: auto;  
+}
+
+.navbar-nav {
+    padding: 0.5rem 0; 
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.profile-img1 {
+    border-radius: 10px;
+}
+
+.logo-img {
+    height: 10vh;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    background-color: transparent; /* Confirming no background */
+    display: block; /* Ensures no extra space around the image */
+}
+
+
+/* Media queries for tablets and desktops */
+@media (min-width: 768px) {
+    .download-button {
+        display: inline-block; /* Only show the download button on larger screens */
+    }
+
+    .navbar-toggler {
+        margin-right: 1rem;  /* Adjusts right margin on mobile for symmetry */
+    }
+
+
+
+}
