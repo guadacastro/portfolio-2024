@@ -6,6 +6,34 @@
     /* list-style: none; */
 }
 
+@font-face {
+    font-family: 'Roobert';
+    src: url('../assets/fonts/Roobert-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('../assets/fonts/Rebond Grotesque.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('../assets/fonts/Rebond Grotesque Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rebond Grotesque';
+    src: url('../assets/fonts/Rebond Grotesque Extrabold.otf') format('opentype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
 .red {
     background-color: red;
 }
@@ -68,6 +96,30 @@
     display: block; /* Ensures no extra space around the image */
 }
 
+.title {
+    font-family: Roobert;
+    font-style: normal;
+    font-size: 3rem;
+    background-color: #93c3b2;
+    color: black;
+    border-radius: 15px;
+}
+
+.title2 {
+    font-family: Rebond Grotesque;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+.text {
+    font-family: Roobert;
+    font-size: 2rem;
+}
+
+.box1 {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
 
 /* Media queries for tablets and desktops */
 @media (min-width: 768px) {
@@ -78,7 +130,5 @@
     .navbar-toggler {
         margin-right: 1rem;  /* Adjusts right margin on mobile for symmetry */
     }
-
-
 
 }
