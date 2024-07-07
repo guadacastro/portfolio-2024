@@ -42,6 +42,10 @@
     background-color: rgb(17, 89, 205);
 }
 
+body {
+    background-color: rgb(235, 246, 247);
+}
+
 .download-button {
     background-color: #232424;
     width: auto;
@@ -87,21 +91,27 @@
     border-radius: 10px;
 }
 
+.profile-img2 {
+    width: auto;
+    height: 65vh;
+    border-radius: 10px;
+}
+
 .logo-img {
     height: 10vh;
     width: auto;
     padding: 0;
     margin: 0;
-    background-color: transparent; /* Confirming no background */
-    display: block; /* Ensures no extra space around the image */
+    background-color: transparent; 
+    display: block; 
 }
 
 .title {
     font-family: Roobert;
     font-style: normal;
     font-size: 3rem;
-    background-color: #93c3b2;
-    color: black;
+    background-color: #a1d7c4;
+    color: white;
     border-radius: 15px;
 }
 
@@ -116,10 +126,33 @@
     font-size: 2rem;
 }
 
+.highlight-light-blue {
+    background-color: rgb(182, 242, 222);
+}
+
+.highlight-light-pink {
+    background-color: pink;
+}
+
+.highlight-light-purple {
+    background-color: rgb(199, 143, 233);
+}
+
+.highlight-light-orange {
+    background-color: rgb(241, 182, 110);
+}
+
 .box1 {
     margin-top: 10vh;
     margin-bottom: 10vh;
 }
+
+.card-1 {
+    background-color: aliceblue;
+    border-radius: 15px;
+    
+}
+
 
 /* Media queries for tablets and desktops */
 @media (min-width: 768px) {
