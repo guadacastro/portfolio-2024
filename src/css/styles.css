@@ -195,6 +195,20 @@
     color: white;
 }
 
+.footer-box {
+    background-color: white;
+    border-radius: 25px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.footer-box2 {
+    background-color: #a1d7c4;
+    border-radius: 25px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
 /* Media queries for tablets and desktops */
 @media (min-width: 768px) {
     .download-button {
