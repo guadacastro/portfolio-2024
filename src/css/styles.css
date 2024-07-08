@@ -42,8 +42,12 @@
     background-color: rgb(17, 89, 205);
 }
 
-body {
-    background-color: rgb(235, 246, 247);
+.body {
+    background-color: #ebf6f7;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .download-button {
@@ -121,9 +125,20 @@ body {
     font-size: 4rem;
 }
 
+.title3 {
+    font-family: Rebond Grotesque;
+    font-style: normal;
+    font-size: 3rem;
+}
+
 .text {
     font-family: Roobert;
     font-size: 2rem;
+}
+
+.text2 {
+    font-family: Roobert;
+    font-size: 1rem;
 }
 
 .highlight-light-blue {
@@ -142,6 +157,10 @@ body {
     background-color: rgb(241, 182, 110);
 }
 
+.highlight-light-yellow {
+    background-color: rgb(241, 221, 110);
+}
+
 .box1 {
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -153,6 +172,28 @@ body {
     
 }
 
+.nav-text {
+    font-family: Roobert;
+    font-size: 1.5rem;
+}
+
+.form-label {
+    background-color: #a1d7c4;
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.contact-button {
+    background-color: #a1d7c4;
+    
+}
+
+.contact-button:hover {
+    background-color: #6ba490;
+    color: white;
+}
 
 /* Media queries for tablets and desktops */
 @media (min-width: 768px) {

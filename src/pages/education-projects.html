@@ -6,8 +6,10 @@
   <title>Education & Porjects</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href="../css/styles.css" rel="stylesheet">
+  <link href="../css/education-projects.css" rel="stylesheet">
+  <link rel="shortcut icon" href="../favicon.ico">
 </head>
-<body class="">
+<body class="body">
     <header class="">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg">
@@ -18,19 +20,19 @@
                     <div class="collapse navbar-collapse justify-content-center " id="navbarText">
                         <ul class="navbar-nav text-center">
                             <li class="nav-item ">
-                                <a class="nav-link" href="../index.html">Home</a>
+                                <a class="nav-link nav-text" href="../index.html">Home</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="./about-me.html">About Me</a>
+                                <a class="nav-link nav-text" href="./about-me.html">About Me</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link active" href="#">Education & Projects</a>
+                                <a class="nav-link active nav-text" href="#">Education & Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./skills.html">Skills</a>
+                                <a class="nav-link nav-text" href="./skills.html">Skills</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="./contact.html">Contact</a>
+                                <a class="nav-link nav-text" href="./contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -40,7 +42,143 @@
                 </nav>
             </div>
     </header>
-    <h1>Education & Projects !!!!!!</h1>
+    <section class="container box1 ">
+        <h1 class="title m-5 text-center">Education & Projects !!!!!!</h1>
+        <div class="row box1">
+            <div class="col-md-6 col-sm-12">
+                <h2 class="title3">Education</h2>
+            </div>
+            <div class="col-md-6 col-sm-12 box-rounded">
+                <ul class="vstack gap-3 " >
+                    <div class="p-2 ">
+                        <li class="text">Bachelor of Computer Science (UADE)</li>
+                        <p class="text2">2019 - 2021 not finished </p>
+                    </div>
+                    <div class="p-2 ">
+                        <li class="text">Web development Course</li>
+                        <p class="text2">August 2023 - 
+                            <span class="highlight-light-yellow">HTML</span> <span class="highlight-light-orange">CSS</span> 
+                            <span class="highlight-light-purple">Boostrap</span>
+                        </p>
+                        <img class="image-fluid certificate-img" src="../assets/img/certifactes/web-development.png" alt="course certificate" data-bs-toggle="modal" data-bs-target="#webDevModal" style="cursor: pointer;">
+                        <div class="modal fade" id="webDevModal" tabindex="-1" aria-labelledby="webDevModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="webDevModalLabel">Certificate</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <img src="../assets/img/certifactes/web-development.png" alt="Certificate" class="img-fluid">
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <li class="text">JavaScript Course</li>
+                        <p class="text2">October 2023 - 
+                            <span class="highlight-light-yellow">HTML</span> <span class="highlight-light-orange">CSS</span> 
+                            <span class="highlight-light-blue">JavaScript</span>
+                        </p>
+                        <img class="image-fluid certificate-img" src="../assets/img/certifactes/javascript.png" alt="course certificate" data-bs-toggle="modal" data-bs-target="#jsModal" style="cursor: pointer;">
+                        <div class="modal fade" id="jsModal" tabindex="-1" aria-labelledby="jsModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="jsModalLabel">Certificate</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <img src="../assets/img/certifactes/javascript.png" alt="Certificate" class="img-fluid">
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <li class="text">React Course</li>
+                        <p class="text2">December 2023 - 
+                            <span class="highlight-light-yellow">HTML</span> <span class="highlight-light-orange">CSS</span> 
+                            <span class="highlight-light-blue">JavaScript</span> <span class="highlight-light-pink">REACT</span> <span class="highlight-light-purple">Tailwind CSS</span>
+                        </p>
+                        <img class="image-fluid certificate-img" src="../assets/img/certifactes/react.PNG" alt="course certificate" data-bs-toggle="modal" data-bs-target="#reactModal" style="cursor: pointer;">
+                        <div class="modal fade" id="reactModal" tabindex="-1" aria-labelledby="reactModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="reactModalLabel">Certificate</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <img src="../assets/img/certifactes/react.PNG" alt="Certificate" class="img-fluid">
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <section class="container text-center box1">
+            <h2 class="title3 box1">Projects</h2>
+            <div class="row red box-rounded row-gap-4">
+                <div class="col-md-4 col-sm-12  d-flex justify-content-center ">
+                    <div class="card card-box p-3" style="width: 22rem;">
+                        <img src="../assets/img/projects/organizami.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="text bold">Organizami</h5>
+                          <p class="text3">Task Organizer with Pomodoro Timer & Weather API.
+                            A streamlined task management app incorporating the Pomodoro technique and real-time weather updates based on your location.
+                            Built with JavaScript, this app enhances productivity by blending efficient time management with contextual environmental awareness.</p>
+                          <a href="https://organizami.com/" class="btn button-card" target="_blank">Demo</a>
+                          <a href="https://github.com/guadacastro/organizami.git" class="btn button-card " target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12  d-flex justify-content-center ">
+                    <div class="card card-box p-3" style="width: 22rem;">
+                        <img src="../assets/img/projects/disney.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="text bold">Disney +</h5>
+                          <p class="text3">Disney Plus Website - A captivating main page designed with background videos, dynamic carousels, and delightful animations. This project aims to create an 
+                            immersive user experience, showcasing Disney's extensive content library in a visually engaging and interactive manner.</p>
+                          <a href="https://fantastic-kringle-83d9e1.netlify.app/" class="btn button-card" target="_blank">Demo</a>
+                          <a href="https://github.com/guadacastro/DisneyPlus-Clone.git" class="btn button-card " target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12  d-flex justify-content-center ">
+                    <div class="card card-box p-3" style="width: 22rem;">
+                        <img src="../assets/img/projects/projectpro.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="text bold">Project pro</h5>
+                          <p class="text3">Advanced Team Collaboration Platform
+
+                            A visually striking and functionally robust web application designed to streamline team collaboration. This project was meticulously 
+                            crafted using HTML, SASS, and CSS to deliver a seamless, responsive user interface that emphasizes usability and aesthetic appea</p>
+                          <a href="https://guadacastro.github.io/project-pro/" class="btn button-card" target="_blank">Demo</a>
+                          <a href="https://github.com/guadacastro/project-pro.git" class="btn button-card " target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
     
     
 
